@@ -1,7 +1,7 @@
 ---
 data:
   _extendedDependsOn:
-  - icon: ':warning:'
+  - icon: ':heavy_check_mark:'
     path: Data_Structure/Fenwick_Tree/fenwick.hpp
     title: Data_Structure/Fenwick_Tree/fenwick.hpp
   _extendedRequiredBy: []

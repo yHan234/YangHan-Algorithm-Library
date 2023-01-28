@@ -1,18 +1,20 @@
 ---
 data:
   _extendedDependsOn:
-  - icon: ':warning:'
+  - icon: ':heavy_check_mark:'
     path: Data_Structure/Fenwick_Tree/fenwick.hpp
     title: Data_Structure/Fenwick_Tree/fenwick.hpp
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
   _isVerificationFailed: false
   _pathExtension: cpp
-  _verificationStatusIcon: ':warning:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
+    '*NOT_SPECIAL_COMMENTS*': ''
+    PROBLEM: http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=DSL_2_B
     links:
     - http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=DSL_2_B
-  bundledCode: "#line 1 \"tests/Data_Structure/Fenwick_Tree/fenwick_test.cpp\"\n#define\
+  bundledCode: "#line 1 \"tests/Data_Structure/Fenwick_Tree/fenwick.test.cpp\"\n#define\
     \ PROBLEM \"http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=DSL_2_B\"\
     \n\n#include <bits/stdc++.h>\n#line 1 \"Data_Structure/Fenwick_Tree/fenwick.hpp\"\
     \ntemplate <typename T>\nstruct Fenwick {\n#define lowbit(x) ((x) & -(x))\n\n\
@@ -32,7 +34,7 @@ data:
     \            if (pos <= n && c[pos] <= k)  // \u6269\u5C55\u6210\u529F \u66F4\u65B0\
     \n                k -= c[pos];\n            else  // \u6269\u5C55\u5931\u8D25\
     \ \u64A4\u56DE\n                pos -= 1 << i;\n        }\n        return pos;\n\
-    \    }\n};\n#line 5 \"tests/Data_Structure/Fenwick_Tree/fenwick_test.cpp\"\n\n\
+    \    }\n};\n#line 5 \"tests/Data_Structure/Fenwick_Tree/fenwick.test.cpp\"\n\n\
     \nvoid solve() {\n    int n, q;\n    std::cin >> n >> q;\n\n    Fenwick<long long>\
     \ fenwick(n);\n\n    while (q--) {\n        int com, x, y;\n        std::cin >>\
     \ com >> x >> y;\n\n        if (com == 0) {\n            fenwick.add(x, y);\n\
@@ -49,16 +51,16 @@ data:
     \    std::cin.tie(0);\n\n    solve();\n\n    return 0;\n}"
   dependsOn:
   - Data_Structure/Fenwick_Tree/fenwick.hpp
-  isVerificationFile: false
-  path: tests/Data_Structure/Fenwick_Tree/fenwick_test.cpp
+  isVerificationFile: true
+  path: tests/Data_Structure/Fenwick_Tree/fenwick.test.cpp
   requiredBy: []
-  timestamp: '2023-01-28 18:15:22+08:00'
-  verificationStatus: LIBRARY_NO_TESTS
+  timestamp: '2023-01-28 18:37:36+08:00'
+  verificationStatus: TEST_ACCEPTED
   verifiedWith: []
-documentation_of: tests/Data_Structure/Fenwick_Tree/fenwick_test.cpp
+documentation_of: tests/Data_Structure/Fenwick_Tree/fenwick.test.cpp
 layout: document
 redirect_from:
-- /library/tests/Data_Structure/Fenwick_Tree/fenwick_test.cpp
-- /library/tests/Data_Structure/Fenwick_Tree/fenwick_test.cpp.html
-title: tests/Data_Structure/Fenwick_Tree/fenwick_test.cpp
+- /verify/tests/Data_Structure/Fenwick_Tree/fenwick.test.cpp
+- /verify/tests/Data_Structure/Fenwick_Tree/fenwick.test.cpp.html
+title: tests/Data_Structure/Fenwick_Tree/fenwick.test.cpp
 ---

@@ -5,13 +5,13 @@ data:
   - icon: ':warning:'
     path: Data_Structure/Fenwick_Tree/fenwick_dif.hpp
     title: Data_Structure/Fenwick_Tree/fenwick_dif.hpp
-  - icon: ':warning:'
-    path: tests/Data_Structure/Fenwick_Tree/fenwick_test.cpp
-    title: tests/Data_Structure/Fenwick_Tree/fenwick_test.cpp
-  _extendedVerifiedWith: []
+  _extendedVerifiedWith:
+  - icon: ':heavy_check_mark:'
+    path: tests/Data_Structure/Fenwick_Tree/fenwick.test.cpp
+    title: tests/Data_Structure/Fenwick_Tree/fenwick.test.cpp
   _isVerificationFailed: false
   _pathExtension: hpp
-  _verificationStatusIcon: ':warning:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
   bundledCode: "#line 1 \"Data_Structure/Fenwick_Tree/fenwick.hpp\"\ntemplate <typename\
@@ -56,10 +56,10 @@ data:
   path: Data_Structure/Fenwick_Tree/fenwick.hpp
   requiredBy:
   - Data_Structure/Fenwick_Tree/fenwick_dif.hpp
-  - tests/Data_Structure/Fenwick_Tree/fenwick_test.cpp
   timestamp: '2023-01-28 18:00:13+08:00'
-  verificationStatus: LIBRARY_NO_TESTS
-  verifiedWith: []
+  verificationStatus: LIBRARY_ALL_AC
+  verifiedWith:
+  - tests/Data_Structure/Fenwick_Tree/fenwick.test.cpp
 documentation_of: Data_Structure/Fenwick_Tree/fenwick.hpp
 layout: document
 redirect_from:

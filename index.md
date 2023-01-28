@@ -3,7 +3,7 @@ data:
   libraryCategories:
   - name: Data_Structure/Fenwick_Tree
     pages:
-    - icon: ':warning:'
+    - icon: ':heavy_check_mark:'
       path: Data_Structure/Fenwick_Tree/fenwick.hpp
       title: Data_Structure/Fenwick_Tree/fenwick.hpp
     - icon: ':warning:'
@@ -12,11 +12,11 @@ data:
     - icon: ':warning:'
       path: Data_Structure/Fenwick_Tree/fenwick_dif.hpp
       title: Data_Structure/Fenwick_Tree/fenwick_dif.hpp
+  verificationCategories:
   - name: tests/Data_Structure/Fenwick_Tree
     pages:
-    - icon: ':warning:'
-      path: tests/Data_Structure/Fenwick_Tree/fenwick_test.cpp
-      title: tests/Data_Structure/Fenwick_Tree/fenwick_test.cpp
-  verificationCategories: []
+    - icon: ':heavy_check_mark:'
+      path: tests/Data_Structure/Fenwick_Tree/fenwick.test.cpp
+      title: tests/Data_Structure/Fenwick_Tree/fenwick.test.cpp
 layout: toppage
 ---
