@@ -12,11 +12,11 @@ data:
     - icon: ':warning:'
       path: Data_Structure/Fenwick_Tree/fenwick_dif.hpp
       title: Data_Structure/Fenwick_Tree/fenwick_dif.hpp
-  - name: tests/Data Structure/Fenwick Tree
+  - name: tests/Data_Structure/Fenwick_Tree
     pages:
     - icon: ':warning:'
-      path: tests/Data Structure/Fenwick Tree/fenwick_test.cpp
-      title: tests/Data Structure/Fenwick Tree/fenwick_test.cpp
+      path: tests/Data_Structure/Fenwick_Tree/fenwick_test.cpp
+      title: tests/Data_Structure/Fenwick_Tree/fenwick_test.cpp
   verificationCategories: []
 layout: toppage
 ---

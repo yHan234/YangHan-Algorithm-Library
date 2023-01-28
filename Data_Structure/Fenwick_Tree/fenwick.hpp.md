@@ -6,8 +6,8 @@ data:
     path: Data_Structure/Fenwick_Tree/fenwick_dif.hpp
     title: Data_Structure/Fenwick_Tree/fenwick_dif.hpp
   - icon: ':warning:'
-    path: tests/Data Structure/Fenwick Tree/fenwick_test.cpp
-    title: tests/Data Structure/Fenwick Tree/fenwick_test.cpp
+    path: tests/Data_Structure/Fenwick_Tree/fenwick_test.cpp
+    title: tests/Data_Structure/Fenwick_Tree/fenwick_test.cpp
   _extendedVerifiedWith: []
   _isVerificationFailed: false
   _pathExtension: hpp
@@ -56,7 +56,7 @@ data:
   path: Data_Structure/Fenwick_Tree/fenwick.hpp
   requiredBy:
   - Data_Structure/Fenwick_Tree/fenwick_dif.hpp
-  - tests/Data Structure/Fenwick Tree/fenwick_test.cpp
+  - tests/Data_Structure/Fenwick_Tree/fenwick_test.cpp
   timestamp: '2023-01-28 18:00:13+08:00'
   verificationStatus: LIBRARY_NO_TESTS
   verifiedWith: []
